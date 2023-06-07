@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/dingdoong/static/css/main.59e9a111.css",
+    "main.js": "/dingdoong/static/js/main.bc6a49f8.js",
+    "static/js/787.b8077e0c.chunk.js": "/dingdoong/static/js/787.b8077e0c.chunk.js",
+    "static/media/image13.png": "/dingdoong/static/media/image13.254ff83e9bf700600318.png",
+    "static/media/image16.png": "/dingdoong/static/media/image16.3e38cbb70c5ca8a980e0.png",
+    "static/media/image19.png": "/dingdoong/static/media/image19.f91612f4b535928786a3.png",
+    "static/media/image15.png": "/dingdoong/static/media/image15.218ace8dfa7c98487d6c.png",
+    "static/media/image2.png": "/dingdoong/static/media/image2.abbbc710e976d787e551.png",
+    "static/media/image18.png": "/dingdoong/static/media/image18.0363c68a7a103e6944bc.png",
+    "static/media/image14.png": "/dingdoong/static/media/image14.946833068275bee23e5e.png",
+    "static/media/image3.png": "/dingdoong/static/media/image3.a7613787566972ec70fd.png",
+    "static/media/image9.png": "/dingdoong/static/media/image9.e0474b141c473e0c3f3d.png",
+    "static/media/image7.png": "/dingdoong/static/media/image7.56425942521d610597ab.png",
+    "static/media/image12.png": "/dingdoong/static/media/image12.7f79fe400e217254c2e1.png",
+    "static/media/image8.png": "/dingdoong/static/media/image8.ba0fd02733bbdc845487.png",
+    "static/media/image22.png": "/dingdoong/static/media/image22.4039e92c60886763734a.png",
+    "static/media/image11.png": "/dingdoong/static/media/image11.eb80a9869cad3f46df5c.png",
+    "static/media/image21.png": "/dingdoong/static/media/image21.a324b40c37f166f4f733.png",
+    "static/media/image10.png": "/dingdoong/static/media/image10.1736628e7ef91c8fbb6f.png",
+    "static/media/image17.png": "/dingdoong/static/media/image17.4701018dc1d0f6b5ee0f.png",
+    "static/media/image6.png": "/dingdoong/static/media/image6.7c714c5499dff6426bbd.png",
+    "index.html": "/dingdoong/index.html",
+    "main.59e9a111.css.map": "/dingdoong/static/css/main.59e9a111.css.map",
+    "main.bc6a49f8.js.map": "/dingdoong/static/js/main.bc6a49f8.js.map",
+    "787.b8077e0c.chunk.js.map": "/dingdoong/static/js/787.b8077e0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59e9a111.css",
+    "static/js/main.bc6a49f8.js"
+  ]
+}
