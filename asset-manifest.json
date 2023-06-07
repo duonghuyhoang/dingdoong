@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dingdoong/static/css/main.59e9a111.css",
-    "main.js": "/dingdoong/static/js/main.bc6a49f8.js",
+    "main.css": "/dingdoong/static/css/main.7b8858ef.css",
+    "main.js": "/dingdoong/static/js/main.14e8ee89.js",
     "static/js/787.b8077e0c.chunk.js": "/dingdoong/static/js/787.b8077e0c.chunk.js",
     "static/media/image13.png": "/dingdoong/static/media/image13.254ff83e9bf700600318.png",
     "static/media/image16.png": "/dingdoong/static/media/image16.3e38cbb70c5ca8a980e0.png",
@@ -22,12 +22,12 @@
     "static/media/image17.png": "/dingdoong/static/media/image17.4701018dc1d0f6b5ee0f.png",
     "static/media/image6.png": "/dingdoong/static/media/image6.7c714c5499dff6426bbd.png",
     "index.html": "/dingdoong/index.html",
-    "main.59e9a111.css.map": "/dingdoong/static/css/main.59e9a111.css.map",
-    "main.bc6a49f8.js.map": "/dingdoong/static/js/main.bc6a49f8.js.map",
+    "main.7b8858ef.css.map": "/dingdoong/static/css/main.7b8858ef.css.map",
+    "main.14e8ee89.js.map": "/dingdoong/static/js/main.14e8ee89.js.map",
     "787.b8077e0c.chunk.js.map": "/dingdoong/static/js/787.b8077e0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59e9a111.css",
-    "static/js/main.bc6a49f8.js"
+    "static/css/main.7b8858ef.css",
+    "static/js/main.14e8ee89.js"
   ]
 }
