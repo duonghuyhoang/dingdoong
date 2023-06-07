@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f6f6f7;
+}
+
+header   {
+  
+
+
+
+}
+.content-wrapper {
+  width: 80% ;
+  position: relative;
+  padding-left: -40px;
+  margin: auto;
+}
+.main {
+
+    
+}
+.ct-card {
+  @apply  w-[700px] sm:w-[800px] md:w-[900px] lg:max-w-[452px]  h-[117px]  cursor-pointer bg-white   rounded-card transition hover:scale-105  hover:duration-150 hover:ease-in flex justify-center items-center px-5 gap-5;
+  box-shadow: 0 0 0.3125rem rgba(23, 24, 24, 0.05),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    &:hover {
+      box-shadow:  1px 5px 10px 1px hsla(0,0%,87%,.95);
+    }
+  outline: 0.0625rem solid transparent;
+}
+
+.brand {
+  @apply transition hover:scale-105  hover:duration-150 hover:ease-in bg-cover bg-no-repeat;
+  filter: grayscale(100%);
+}
+.brand:hover {
+  filter: none;
+}
+
+.timeline {
+  
+  
+  @apply  ml-[200px] lg:ml-[220px] md:ml-[420px] ;
+  padding: 20px;
+}
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #F62369;
+  position: relative;
+  max-height: 380px;
+}
+
+/* Card container */
+.card {
+  @apply w-[280px] sm:w-[250px] md:w-[400px]  lg:w-[210px] sm:h-[140px] h-[150px] lg:h-[160px] transition hover:scale-105 hover:duration-150 hover:ease-in;
+  position: relative;
+  margin: 0 0 20px 20px;
+  
+  background: #ffffff;
+  color: gray;
+  border-radius: 8px;
+  
+
+  box-shadow: 0 0 0.3125rem rgba(23,24,24,.05),0 0.0625rem 0.125rem rgba(0,0,0,.15);
+  cursor: pointer;
+
+&:hover {
+    box-shadow:1px 5px 10px 1px hsla(0,0%,87%,.95);
+}
+outline:0.0625rem solid transparent;
+}
+.card-1 {
+  left:  8px;
+}
+.card-2 {
+   left: -260px;
+   
+}
+@media screen and (max-width:1024px){
+  .card-2 {
+    left: -450px;
+    
+ }.outer {
+  
+  max-height: 330px;
+}
+
+
+}
+@media screen and (max-width:768px){
+  .card-2 {
+    left: -300px;
+    
+ }.outer {
+  
+  max-height: 330px;
+}
+
+
+
+}
+@media screen and (max-width:640px){
+  .card-2 {
+    left: -330px;
+    
+ }.outer {
+  margin-left: 90px;
+  max-height: 350px;
+}
+
+
+
+}
+.card-3 {
+  left:  8px;
+}
+/* Information about the timeline */
+.info {
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+.detail-card {
+@apply font-Inter list-disc;
+font-size:13px;
+padding-left:35px;
+color:#F62369;
+
+padding-right:15px;
+padding-bottom:8px;
+}
+/* Title of the card */
+.title {
+background:#fed500;
+border-radius:3px;
+color:#0e1557;
+display:flex;
+font-family:Arvo;
+font-size:16px;
+font-style:normal;
+font-weight:400;
+height:30px;
+
+justify-content:center;
+
+}
+.timeline-marker {
+  color: #ffffff;
+  position: absolute;
+  left: -0.8em; 
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 20px;
+  font-family: 'Inter';/* Adjust this value to move the marker left or right */
+  width: 30px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #0E1557;
+}
+
+.timeline-item:first-child .timeline-marker {
+  top: -1em;
+}
+
+.timeline-item:nth-child(2) .timeline-marker {
+  top: calc(50% - .5em);
+}
+
+.timeline-item:last-child .timeline-marker {
+  bottom: -1em;
+}
+.btn-discover {
+  background: #f62369;
+    border: 2px solid #0e1557;
+    border-radius: 40px;
+    box-shadow: 0 6px #f62369;
+    color: #fff;
+    font-weight: 700;
+    padding: 13px 20px;
+    &:hover {
+      border: 2px solid #c20041;
+      box-shadow: none!important;
+  
+    }
+}
+
+.carousel {
+  width: 1060px;
+  height: 365px;
+  background-color: #ffffff;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  width: 87%;
+  height: 340px;
+  margin-top: 15px;
+}
+.carousel-item {
+ 
+  height: 340px;
+
+
+}
+.carousel-control-prev
+ {
+  color: black;
+  transform: translateX(-40px);
+}
+
+.carousel-control-next {
+  color: black;
+  transform: translateX(70px);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-prev::before,
+.carousel-control-next::before {
+  content: '❮';
+  font-size: 25px;
+  color: black;
+}
+
+.carousel-control-next::before {
+  content: '❯';
+}
+.carousel-inner .carousel-item {
+  transition: transform 1s ease-out;
+}
+.btn-become-our-clients {
+  position: absolute;
+ margin-top: 430px;
+  background-color: #fff;
+    border: 1px solid #f62369;
+    border-radius: 20px;
+    box-shadow: 3px 4px #f62369;
+    color: #f62369;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 6px 25px;
+    &:hover {
+      box-shadow: none;
+    }
+}
+
+.card__top,
+.card__bottom {
+  background: #fed500 !important;
+  color: #000000 !important;
+}
+.flip-countdown {
+  text-align: center;
+  perspective: 400px;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 0 auto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --background-color: #fed500 !important;
+  --background-bottom-color: #fed500 !important;
+  --text-color: #000000 !important;
+  --text-bottom-color: #000000 !important;
+}
+.flip-countdown-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px !important;
+  line-height: 20px;
+
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+.flip-countdown-piece {
+  flex-direction: column;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin-right: -2px !important;
+}
+.flip-countdown-piece::after {
+  content: ":";
+  margin-left: 79px;
+  font-weight: 700;
+  margin-top: -50px;
+}
+.flip-countdown-piece:nth-child(4)::after {
+  content: ":";
+  color: transparent !important;
+}
